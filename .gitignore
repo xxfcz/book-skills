@@ -1,3 +1,6 @@
+# ===== agent 本地记忆（不入库）=====
+.workbuddy/
+
 # ===== OS / 编辑器 =====
 .DS_Store
 Thumbs.db
