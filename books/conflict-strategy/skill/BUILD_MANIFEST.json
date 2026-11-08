@@ -1,0 +1,38 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "7b52b5888a1eab394b2fe611fcb0a9469ec4919a0f0f3a2959df860c7387c91f",
+    "references/capabilities/bargaining-game.md": "d3395bfc5b16b95bddf879e9a93bd2a2df16dbd9cfa6f71c752c69aeb8446092",
+    "references/capabilities/brinkmanship.md": "4985d91c46f5718fe2f5f42b704a1006061663a54a772180d1660a51ab295a21",
+    "references/capabilities/credible-commitment.md": "2b7be0d5e2e6bc62795e51cd3b7f65ddacf9211eeb0c314d33ea5f8ea74067a6",
+    "references/capabilities/deterrence-stability.md": "421dd0797a45f12bfc6ca516d2d21f8d6bd7645b88257ee4686889c80c83f355",
+    "references/capabilities/focal-point.md": "d55ac993fe9dc0b8d3534c72ebd5c79f49fafd5238ab106ddac6d7839ec584bc",
+    "references/capabilities/randomized-commitment.md": "f8fe61c1f0f8d6df2b9b24f299327028f34822eff02874a7e7ab98163cfeec45",
+    "references/capabilities/strategic-behavior.md": "263abff0fcaed79650426d1178422311393a073987532056e7de2f8a7b4ab4e6",
+    "references/capabilities/threat-vs-promise.md": "ef090a12311a30fe4e0a1fb5b9643fbcdaa1a235827d90bfac4b053837f1a907",
+    "references/capability-index.md": "8f47d410ef6010872fadb88cedb60521955f9645e9a0f236caa5a82af8083f0b",
+    "references/cheatsheet.md": "8ffce4cef2ae8d7ffb0d07ae0e5baa6b928b2ddbc000286deaa19617e9e538b6",
+    "references/glossary.md": "78a0319c95d0ffd16c03b661b7df5d8c5a590f67ab15a7b4a95f1649b65e3aed",
+    "references/overview.md": "5eb6ebaf656c9cee4a4bc5530b4b4118720c6cbe30d201027f161a7f58da63fb"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.conflict-strategy",
+  "bundle_sha256": "fd083a11125c091eaf245985565b90238949b582182758c399b8c85233d9e748",
+  "variant": "single",
+  "run_id": "run-20261108-154610-30a546",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 8,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

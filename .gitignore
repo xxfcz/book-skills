@@ -1,0 +1,22 @@
+# ===== OS / 编辑器 =====
+.DS_Store
+Thumbs.db
+*.swp
+
+# ===== cangjie 蒸馏工作缓存（绝不提交）=====
+**/.cangjie/
+*.cangjie-lock
+
+# ===== 日志 =====
+*.log
+
+# ===== 原始书源 / 书稿（版权 + 体积，绝不提交）=====
+**/full_text.txt
+*.pdf
+*.epub
+*.mobi
+*.azw*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]

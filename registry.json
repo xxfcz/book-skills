@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "description": "cangjie 蒸馏书籍 skill 的集合仓库，跨设备（手机/PC/网页/云沙箱）共享",
+  "install_target": "~/.workbuddy/skills/<slug>",
+  "books": [
+    {
+      "slug": "conflict-strategy",
+      "title": "冲突的战略",
+      "author": "Thomas C. Schelling",
+      "translator": "赵华",
+      "year": 1960,
+      "cangjie_version": "2.5.0",
+      "variant": "single",
+      "capability_count": 8,
+      "install_path": "books/conflict-strategy/skill",
+      "added_at": "2026-11-08"
+    }
+  ]
+}
